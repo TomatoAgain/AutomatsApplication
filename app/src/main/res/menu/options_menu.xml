@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/menu_logout" />
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/profile_title" />
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notifications"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "526483609171",
+    "firebase_url": "https://automatsappuserauthentication-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "automatsappuserauthentication",
+    "storage_bucket": "automatsappuserauthentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526483609171:android:4f0abfae1d54c574ba98a6",
+        "android_client_info": {
+          "package_name": "com.example.automatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526483609171-n70v1gl6hq0k5qcdimhmfod1e4r42c8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHXFHNM26Lk49trw31LtUGA7ps2X3dmgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526483609171-n70v1gl6hq0k5qcdimhmfod1e4r42c8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edittext_automatmaker_arrowtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:background = "@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageview_automatmaker_leftarrow"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_downarrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_arrowtoself4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layoutDirection="ltr"
+        android:rotation="270"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_arrowtoself3"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_downrightarrow"
+        app:srcCompat="@drawable/arrowtoself" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_arrowtoself2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layoutDirection="ltr"
+        android:rotation="90"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_arrowtoself"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_downarrow"
+        app:srcCompat="@drawable/arrowtoself" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_arrowtoself3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layoutDirection="ltr"
+        android:rotation="180"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_arrowtoself2"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_downrightarrow"
+        app:srcCompat="@drawable/arrowtoself" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_arrowtoself"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_downleftarrow"
+        app:srcCompat="@drawable/arrowtoself" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_rightarrow"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layoutDirection="ltr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_leftarrow"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_upperrightarrow"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_leftarrow"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layoutDirection="ltr"
+        android:scaleX="-1"
+        android:scaleY="-1"
+        app:layout_constraintStart_toStartOf="@+id/imageview_automatmaker_upperleftarrow"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_upperleftarrow"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_upperleftarrow"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleX="-1"
+        android:scaleY="-1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diagonalarrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_downrightarrow"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_downarrow"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_rightarrow"
+        app:srcCompat="@drawable/diagonalarrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_upperrightarrow"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleY="-1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_uparrow"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diagonalarrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_downleftarrow"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:scaleX="-1"
+        app:layout_constraintStart_toStartOf="@+id/imageview_automatmaker_leftarrow"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_leftarrow"
+        app:srcCompat="@drawable/diagonalarrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_downarrow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_downleftarrow"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_automatmaker_uparrow"
+        app:srcCompat="@drawable/verticalarrow" />
+
+    <ImageView
+        android:id="@+id/imageview_automatmaker_uparrow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleY="-1"
+        app:layout_constraintStart_toEndOf="@+id/imageview_automatmaker_upperleftarrow"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/verticalarrow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

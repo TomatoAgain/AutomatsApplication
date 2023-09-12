@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AutomatsApp</string>
+
+    <string name="login_title">Log in</string>
+    <string name="login_username">Enter Username</string>
+    <string name="login_password">Enter Password</string>
+    <string name="login_register"> No account? </string>
+    <string name="register_email"> Enter Email </string>
+    <string name="register_confirmpassword"> Confirm Password </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_submit"> Create Account </string>
+
+    <string name="search_title"> search </string>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_mainpage">Main Page</string>
+    <string name="notifications_empty">No notifications yet...</string>
+
+    <string name="main_post"> Post </string>
+    <string name="dialog_description"> Write your post`s description here... </string>
+    <string name="comment_description"> Write your comment`s description here... </string>
+    <string name="dialog_title">Write your title here... </string>
+
+    <string name="post_comments"> Comments </string>
+    <string name="comment_button"> Comment </string>
+    <string name="reply_button"> Reply </string>
+
+    <string name="profile_title"> My Profile</string>
+    <string name="profile_history"> My Post History </string>
+    <string name="profile_username">Username: </string>
+    <string name="profile_email">Email: </string>
+    <string name="profile_date">Joined on: </string>
+    <string name="profile_automats"> Automat Maker </string>
+
+    <string name="automatmaker_title"> Automat Maker </string>
+
+</resources>

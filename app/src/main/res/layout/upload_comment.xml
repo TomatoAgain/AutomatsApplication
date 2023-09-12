@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter_blue">
+
+
+    <Button
+        android:id="@+id/button_commentdialog_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/light_blue"
+        android:text="@string/main_post"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_commentdialog_description"
+        app:layout_constraintStart_toStartOf="@+id/edittext_commentdialog_description" />
+
+    <EditText
+        android:id="@+id/edittext_commentdialog_description"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/comment_description"
+        android:inputType="textMultiLine"
+        android:textAlignment="gravity"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_commentdialog_post"
+        app:layout_constraintEnd_toEndOf="@+id/imageview_commentdialog_image"
+        app:layout_constraintStart_toStartOf="@+id/imageview_commentdialog_image"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_commentdialog_image" />
+
+    <ImageView
+        android:id="@+id/imageview_commentdialog_image"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@android:drawable/ic_menu_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
